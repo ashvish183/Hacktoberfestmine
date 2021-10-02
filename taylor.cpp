@@ -11,7 +11,7 @@ double e(int x, int n)
         return 0;
  
     
-    r = e(x, n - 1);
+    r = e(x, n+1);
  
    
     p = p * x;
